@@ -24,16 +24,16 @@
                 <input class="login__input" type="text" placeholder="Digite seu usuário aqui...">
                 <label class="login__label">Senha</label>
                 <input class="login__input" type="password" placeholder="Digite sua senha aqui...">
-                <button data-control-modal="modal-login" class="forgot-your-password">Esqueceu sua senha?</button>
+                <button data-control-modal="modal-reset" class="forgot-your-password">Esqueceu sua senha?</button>
                 <button class="button-login">Entrar</button>
             </form>
         </section>
     </main>
-    <div class="modal-wrapper" id="modal-login">
+    <div class="modal-wrapper" id="modal-reset">
         <div class="modal">
             <div class="modal-header">
                 <h2 class="modal-title">Recuperar senha</h2>
-                <button class="modal-close" data-control-modal="modal-login">X</button>
+                <button class="modal-close" data-control-modal="modal-reset">X</button>
             </div>
             <div class="modal-body">
                 <p>Digite seu e-mail abaixo e enviaremos um link para que possa resetar sua senha.</p>
@@ -42,6 +42,6 @@
             </div>
         </div>
     </div>
-    <script src="/scripts/modal.js"></script>
+    <script src="../../scripts/modal.js"></script>
 </body>
 </html>
