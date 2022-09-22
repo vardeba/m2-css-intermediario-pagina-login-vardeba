@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="../../styles/globalStyles.css">
     <link rel="stylesheet" href="../../styles/flexes.css">
     <link rel="stylesheet" href="../../styles/modal.css">
-    <link rel="stylesheet" href="./index.css">
     <title>Login</title>
 </head>
-<body>
-    <main>
-        <section class="section__about">
+<body class="flex flex-align-center flex-justify-center">
+    <main class="flex flex-align-center flex-justify-between">
+        <section class="section__about flex flex-direction-col flex-align-start flex-justify-center">
             <h1 class="page-title">Playtendo</h1>
             <p class="page-about">A Playtendo e a maior loja de jogos digitais.</p>
             <p class="page-promo">Aproveite o cupom KENZIE12 e consiga 12% de desconto em sua primeira compra.</p>
         </section>
-        <section class="section__login">
-            <form class="form__login">
+        <section class="section__login flex flex-align-center flex-justify-center">
+            <form class="form__login flex flex-direction-col flex-align-start flex-justify-center">
                 <h2 class="login-title">Login</h2>
                 <label class="login__label">Usuário</label>
                 <input class="login__input" type="text" placeholder="Digite seu usuário aqui...">
@@ -30,7 +30,7 @@
         </section>
     </main>
     <div class="modal-wrapper" id="modal-reset">
-        <div class="modal">
+        <form class="modal">
             <div class="modal-header">
                 <h2 class="modal-title">Recuperar senha</h2>
                 <button class="modal-close" data-control-modal="modal-reset">X</button>
@@ -40,7 +40,7 @@
                 <input type="email" name="email_cadastrado" id="email_cadastrado" placeholder="Digite aqui o e-mail cadastrado...">
                 <button class="button-reset-senha">Enviar</button>
             </div>
-        </div>
+        </form>
     </div>
     <script src="../../scripts/modal.js"></script>
 </body>

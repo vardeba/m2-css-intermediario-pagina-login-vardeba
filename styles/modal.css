@@ -55,10 +55,10 @@
     margin-bottom: 10px;
     border: 2px solid var(--color-grey-5);
     border-radius: 4px;
+    padding-left: 15px;
 }
 
 .modal-body input::placeholder {
-    padding-left: 15px;
     font-size: 14px;
 }
 
