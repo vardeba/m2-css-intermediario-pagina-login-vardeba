@@ -1,1 +1,119 @@
-/* Desenvolva seu código aqui... */
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../../assets/img/nintendo-mario.webp);
+}
+
+main {
+    width: 714px;
+    height: 407px;
+    display: flex;
+    background-color: var(--color-white);
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    border: 2px solid var(--color-primary);
+    border-radius: 8px;
+}
+
+.section__about {
+    width: 321px;
+    height: 403px;
+    padding: 0 43px;
+    border-radius: 8px 0 0 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: var(--color-grey-5);
+}
+
+.page-title {
+    font-size: var(--title-size-1);
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: var(--color-primary);
+}
+
+.page-about {
+    font-size: var(--text-size-1);
+    color: var(-color-grey-1);
+    margin-bottom: 20px;
+}
+
+.page-promo {
+    font-size: var(--text-size-2);
+    color: var(-color-grey-1);
+}
+
+.section__login {
+    width: 393px;
+    height: 407px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__login {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.login-title {
+    font-size: var(--title-size-2);
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.login__label {
+    margin-bottom: 2px;
+    font-size: var(--text-size-2);
+}
+
+.login__input {
+    width: 100%;
+    height: 44px;
+    margin-bottom: 10px;
+    border: 2px solid var(--color-grey-5);
+    border-radius: 4px;
+}
+
+.login__input::placeholder {
+    padding-left: 10px;
+    font-size: var(--text-size-1);
+}
+
+.forgot-your-password {
+    font-size: var(--text-size-2);
+    align-self: flex-end;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button-login {
+    width: 100%;
+    height: 49px;
+    margin: 20px 0;
+    font-size: var(--title-size-3);
+    border: 2px solid var(--color-primary);
+    border-radius: 4px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-weight: 600;
+}
+
+.button-login:hover {
+    background-color: var(--color-white);
+    color: var(--color-primary);
+}
+
+
+
+
